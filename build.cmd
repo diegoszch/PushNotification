@@ -1,0 +1,1 @@
+echo "Arquivos de comando que geram o build para windows"

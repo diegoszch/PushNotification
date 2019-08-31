@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  project:
+    image: NOME_IMAGEM
+    container_name: "CONTAINER_NAME"
+    hostname: "HOST_NAME"
+    build:
+      context: .
+    ports:
+      - "80:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      #- "/etc/timezone:/etc/timezone:ro"
+      #- "/etc/localtime:/etc/localtime:ro"
